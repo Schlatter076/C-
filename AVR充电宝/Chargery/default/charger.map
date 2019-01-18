@@ -1,0 +1,693 @@
+Archive member included because of file (symbol)
+
+C:/WinAVR/lib/gcc/avr/3.4.6/avr5\libgcc.a(_udivmodqi4.o)
+                              string.o (__udivmodqi4)
+C:/WinAVR/lib/gcc/avr/3.4.6/avr5\libgcc.a(_udivmodhi4.o)
+                              misc.o (__udivmodhi4)
+C:/WinAVR/lib/gcc/avr/3.4.6/avr5\libgcc.a(_divmodhi4.o)
+                              Ni.o (__divmodhi4)
+C:/WinAVR/lib/gcc/avr/3.4.6/avr5\libgcc.a(_copy_data.o)
+                              battery.o (__do_copy_data)
+C:/WinAVR/lib/gcc/avr/3.4.6/avr5\libgcc.a(_clear_bss.o)
+                              battery.o (__do_clear_bss)
+C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5\libc.a(strcpy.o)
+                              Li.o (strcpy)
+C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5\libc.a(sprintf.o)
+                              Li.o (sprintf)
+C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
+                              C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5\libc.a(sprintf.o) (vfprintf)
+C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5\libc.a(strlen_P.o)
+                              C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5\libc.a(vfprintf_std.o) (strlen_P)
+C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5\libc.a(strnlen_P.o)
+                              C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5\libc.a(vfprintf_std.o) (strnlen_P)
+C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5\libc.a(strnlen.o)
+                              C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5\libc.a(vfprintf_std.o) (strnlen)
+C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5\libc.a(fputc.o)
+                              C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5\libc.a(vfprintf_std.o) (fputc)
+C:/WinAVR/lib/gcc/avr/3.4.6/avr5\libgcc.a(_udivmodsi4.o)
+                              C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5\libc.a(vfprintf_std.o) (__udivmodsi4)
+
+Allocating common symbols
+Common symbol       size              file
+
+msg                 0xc2              battery.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00020000         xr
+data             0x00800060         0x0000ffa0         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5/crtm32.o
+LOAD battery.o
+LOAD comm.o
+LOAD adc.o
+LOAD dbus.o
+LOAD eeprom.o
+LOAD key.o
+LOAD port.o
+LOAD pwm.o
+LOAD timer0.o
+LOAD uart0.o
+LOAD lcd.o
+LOAD main.o
+LOAD menu.o
+LOAD misc.o
+LOAD cpuinit.o
+LOAD string.o
+LOAD Li.o
+LOAD Ni.o
+LOAD Pb.o
+LOAD items.o
+LOAD charger.o
+LOAD para.o
+LOAD sets.o
+LOAD limit.o
+LOAD balance.o
+LOAD scroll.o
+LOAD pmu.o
+LOAD C:/WinAVR/lib/gcc/avr/3.4.6/avr5\libgcc.a
+LOAD C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5\libc.a
+LOAD C:/WinAVR/lib/gcc/avr/3.4.6/avr5\libgcc.a
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000     0x4118
+ *(.vectors)
+ .vectors       0x00000000       0x54 C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5/crtm32.o
+                0x00000000                __vectors
+                0x00000000                __vector_default
+                0x00000054                __ctors_start = .
+ *(.ctors)
+                0x00000054                __ctors_end = .
+                0x00000054                __dtors_start = .
+ *(.dtors)
+                0x00000054                __dtors_end = .
+ *(.progmem.gcc*)
+ .progmem.gcc_sw_table
+                0x00000054       0x28 items.o
+ *(.progmem*)
+                0x0000007c                . = ALIGN (0x2)
+ *(.init0)
+ *(.init1)
+ *(.init2)
+ .init2         0x0000007c        0xc C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5/crtm32.o
+ *(.init3)
+ *(.init4)
+ .init4         0x00000088       0x16 C:/WinAVR/lib/gcc/avr/3.4.6/avr5\libgcc.a(_copy_data.o)
+                0x00000088                __do_copy_data
+ .init4         0x0000009e       0x10 C:/WinAVR/lib/gcc/avr/3.4.6/avr5\libgcc.a(_clear_bss.o)
+                0x0000009e                __do_clear_bss
+ *(.init5)
+ *(.init6)
+ *(.init7)
+ *(.init8)
+ *(.init9)
+ .init9         0x000000ae        0x4 C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5/crtm32.o
+ *(.text)
+ .text          0x000000b2        0x4 C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5/crtm32.o
+                0x000000b2                __vector_1
+                0x000000b2                __vector_12
+                0x000000b2                __bad_interrupt
+                0x000000b2                __vector_6
+                0x000000b2                __vector_3
+                0x000000b2                __vector_17
+                0x000000b2                __vector_19
+                0x000000b2                __vector_7
+                0x000000b2                __vector_5
+                0x000000b2                __vector_4
+                0x000000b2                __vector_9
+                0x000000b2                __vector_2
+                0x000000b2                __vector_15
+                0x000000b2                __vector_8
+                0x000000b2                __vector_14
+                0x000000b2                __vector_10
+                0x000000b2                __vector_16
+                0x000000b2                __vector_18
+                0x000000b2                __vector_20
+ .text          0x000000b6       0xe4 battery.o
+                0x000000b6                Battery_Set_Save
+                0x0000017c                Battery_Set_Load
+ .text          0x0000019a        0x6 comm.o
+                0x0000019e                Comm_Send
+                0x0000019c                Comm_Receive
+                0x0000019a                Comm_Initial
+ .text          0x000001a0       0x90 adc.o
+                0x000001ae                ADC_Polling
+                0x000001a0                ADC_Initial
+ .text          0x00000230       0x8e dbus.o
+                0x00000230                DBus_Initial
+                0x00000246                DBus_Write_Enable
+                0x0000027a                DBus_Write
+                0x00000264                DBus_Write_4Bit
+ .text          0x000002be       0x34 eeprom.o
+                0x000002be                Eeprom_Write
+                0x000002d8                Eeprom_Read
+ .text          0x000002f2       0xac key.o
+                0x000002f2                Get_Key_State
+                0x0000031e                Get_Key_Code
+ .text          0x0000039e        0xc port.o
+                0x0000039e                Delay
+ .text          0x000003aa       0x7a pwm.o
+                0x000003cc                PWM_Update
+                0x000003e4                PWM_Control
+                0x000003aa                PWM_Initial
+ .text          0x00000424      0x12e timer0.o
+                0x00000432                __vector_11
+                0x00000424                Timer0_Initial
+                0x00000544                Delay_ms
+ .text          0x00000552       0xb0 uart0.o
+                0x000005d6                Uart0_Send
+                0x00000552                Uart0_Initial
+                0x00000586                __vector_13
+                0x00000560                Uart0_Receive_Baud
+                0x000005aa                Uart0_Wait_Receive
+ .text          0x00000602       0xd4 lcd.o
+                0x00000672                LCD_Set_Position
+                0x00000694                LCD_Update
+                0x000006c6                LCD_Clear_Display
+                0x00000602                LCD_Initial
+ .text          0x000006d6       0xe8 main.o
+                0x000006d6                main
+ .text          0x000007be      0x420 menu.o
+                0x000007be                Menu_Jump
+                0x00000b4c                Menu_Entry
+                0x00000a76                Menu_Start
+                0x00000804                Menu_Class
+ .text          0x00000bde       0xc8 misc.o
+                0x00000bde                Bubble_Sort
+                0x00000c5c                FIFO_Clear
+                0x00000c02                Data_Average
+                0x00000c72                FIFO_Press_In
+                0x00000c84                FIFO_Pop
+ .text          0x00000ca6       0x26 cpuinit.o
+                0x00000ca6                CPU_Initial
+ .text          0x00000ccc       0x56 string.o
+                0x00000ce2                memcset
+                0x00000ccc                memcopy
+                0x00000cf4                Number_String
+ .text          0x00000d22      0xd8e Li.o
+                0x00000d22                Li_Battery_Function
+ .text          0x00001ab0      0x848 Ni.o
+                0x00001ab0                Ni_Battery_Function
+ .text          0x000022f8      0x410 Pb.o
+                0x000022f8                Pb_Battery_Function
+ .text          0x00002708      0x6de items.o
+                0x00002708                Get_Item
+ .text          0x00002de6        0x4 charger.o
+                0x00002de8                Charger_Operate
+                0x00002de6                Charger_Initial
+ .text          0x00002dea      0x1b0 para.o
+                0x00002f70                Chargery_Parameter_Resume
+                0x00002dea                Chargery_Parameter_Set
+ .text          0x00002f9a      0x502 sets.o
+                0x00002f9a                ImA_VoltSerial_Set
+                0x00003326                Cycle_Volt_Set
+                0x000031e0                Capacity_ICA_Set
+                0x00003382                Cycle_Items_Set
+ .text          0x0000349c       0x94 limit.o
+                0x0000349c                Battery_Limit_Set
+ .text          0x00003530       0xa0 balance.o
+                0x0000354c                Detect_Cell_Volt
+                0x00003530                Detect_Batt_Count
+ .text          0x000035d0       0xd2 scroll.o
+                0x000035d0                Menu_Scroll
+ .text          0x000036a2      0x34c pmu.o
+                0x000036a2                PMU_Out
+ .text          0x000039ee        0xe C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5\libc.a(strcpy.o)
+                0x000039ee                strcpy
+ .text          0x000039fc       0x60 C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5\libc.a(sprintf.o)
+                0x000039fc                sprintf
+ .text          0x00003a5c      0x57a C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
+                0x00003a5c                vfprintf
+ .text          0x00003fd6       0x12 C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5\libc.a(strlen_P.o)
+                0x00003fd6                strlen_P
+ .text          0x00003fe8       0x16 C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5\libc.a(strnlen_P.o)
+                0x00003fe8                strnlen_P
+ .text          0x00003ffe       0x16 C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5\libc.a(strnlen.o)
+                0x00003ffe                strnlen
+ .text          0x00004014       0x5a C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5\libc.a(fputc.o)
+                0x00004014                fputc
+                0x0000406e                . = ALIGN (0x2)
+ *(.text.*)
+ .text.libgcc   0x0000406e       0x18 C:/WinAVR/lib/gcc/avr/3.4.6/avr5\libgcc.a(_udivmodqi4.o)
+                0x0000406e                __udivmodqi4
+ .text.libgcc   0x00004086       0x28 C:/WinAVR/lib/gcc/avr/3.4.6/avr5\libgcc.a(_udivmodhi4.o)
+                0x00004086                __udivmodhi4
+ .text.libgcc   0x000040ae       0x26 C:/WinAVR/lib/gcc/avr/3.4.6/avr5\libgcc.a(_divmodhi4.o)
+                0x000040ae                __divmodhi4
+                0x000040ae                _div
+ .text.libgcc   0x000040d4       0x44 C:/WinAVR/lib/gcc/avr/3.4.6/avr5\libgcc.a(_udivmodsi4.o)
+                0x000040d4                __udivmodsi4
+                0x00004118                . = ALIGN (0x2)
+ *(.fini9)
+ *(.fini8)
+ *(.fini7)
+ *(.fini6)
+ *(.fini5)
+ *(.fini4)
+ *(.fini3)
+ *(.fini2)
+ *(.fini1)
+ *(.fini0)
+                0x00004118                _etext = .
+
+.data           0x00800060      0x6c4 load address 0x00004118
+                0x00800060                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x00800060       0x8c battery.o
+ .data          0x008000ec        0x7 timer0.o
+ .data          0x008000f3       0xe6 menu.o
+ .data          0x008001d9      0x11b Li.o
+ .data          0x008002f4       0xc3 Ni.o
+ .data          0x008003b7       0x5f Pb.o
+ .data          0x00800416       0xbc items.o
+ .data          0x008004d2      0x1fb para.o
+ .data          0x008006cd       0x13 sets.o
+ .data          0x008006e0        0x5 balance.o
+ .data          0x008006e5       0x3f pmu.o
+ *(.gnu.linkonce.d*)
+                0x00800724                . = ALIGN (0x2)
+                0x00800724                _edata = .
+                0x00800724                PROVIDE (__data_end, .)
+
+.bss            0x00800724       0xc2
+                0x00800724                PROVIDE (__bss_start, .)
+ *(.bss)
+ *(COMMON)
+ COMMON         0x00800724       0xc2 battery.o
+                0x00800724                msg
+                0x008007e6                PROVIDE (__bss_end, .)
+                0x00004118                __data_load_start = LOADADDR (.data)
+                0x000047dc                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x008007e6        0x0
+                0x008007e6                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x008007e6                PROVIDE (__noinit_end, .)
+                0x008007e6                _end = .
+                0x008007e6                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.stab           0x00000000      0x36c
+ *(.stab)
+ .stab          0x00000000      0x36c C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5/crtm32.o
+
+.stabstr        0x00000000       0x84
+ *(.stabstr)
+ .stabstr       0x00000000       0x84 C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5/crtm32.o
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment
+ *(.comment)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x21c
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x14 battery.o
+ .debug_aranges
+                0x00000014       0x14 comm.o
+ .debug_aranges
+                0x00000028       0x14 adc.o
+ .debug_aranges
+                0x0000003c       0x14 dbus.o
+ .debug_aranges
+                0x00000050       0x14 eeprom.o
+ .debug_aranges
+                0x00000064       0x14 key.o
+ .debug_aranges
+                0x00000078       0x14 port.o
+ .debug_aranges
+                0x0000008c       0x14 pwm.o
+ .debug_aranges
+                0x000000a0       0x14 timer0.o
+ .debug_aranges
+                0x000000b4       0x14 uart0.o
+ .debug_aranges
+                0x000000c8       0x14 lcd.o
+ .debug_aranges
+                0x000000dc       0x14 main.o
+ .debug_aranges
+                0x000000f0       0x14 menu.o
+ .debug_aranges
+                0x00000104       0x14 misc.o
+ .debug_aranges
+                0x00000118       0x14 cpuinit.o
+ .debug_aranges
+                0x0000012c       0x14 string.o
+ .debug_aranges
+                0x00000140       0x14 Li.o
+ .debug_aranges
+                0x00000154       0x14 Ni.o
+ .debug_aranges
+                0x00000168       0x14 Pb.o
+ .debug_aranges
+                0x0000017c       0x14 items.o
+ .debug_aranges
+                0x00000190       0x14 charger.o
+ .debug_aranges
+                0x000001a4       0x14 para.o
+ .debug_aranges
+                0x000001b8       0x14 sets.o
+ .debug_aranges
+                0x000001cc       0x14 limit.o
+ .debug_aranges
+                0x000001e0       0x14 balance.o
+ .debug_aranges
+                0x000001f4       0x14 scroll.o
+ .debug_aranges
+                0x00000208       0x14 pmu.o
+
+.debug_pubnames
+                0x00000000      0x6cb
+ *(.debug_pubnames)
+ .debug_pubnames
+                0x00000000       0x44 battery.o
+ .debug_pubnames
+                0x00000044       0x42 comm.o
+ .debug_pubnames
+                0x00000086       0x3a adc.o
+ .debug_pubnames
+                0x000000c0       0x5c dbus.o
+ .debug_pubnames
+                0x0000011c       0x33 eeprom.o
+ .debug_pubnames
+                0x0000014f       0x3d key.o
+ .debug_pubnames
+                0x0000018c       0x24 port.o
+ .debug_pubnames
+                0x000001b0       0x41 pwm.o
+ .debug_pubnames
+                0x000001f1       0x4a timer0.o
+ .debug_pubnames
+                0x0000023b       0x79 uart0.o
+ .debug_pubnames
+                0x000002b4       0x5c lcd.o
+ .debug_pubnames
+                0x00000310       0x23 main.o
+ .debug_pubnames
+                0x00000333       0x55 menu.o
+ .debug_pubnames
+                0x00000388       0x61 misc.o
+ .debug_pubnames
+                0x000003e9       0x22 cpuinit.o
+ .debug_pubnames
+                0x0000040b       0x3c string.o
+ .debug_pubnames
+                0x00000447       0x32 Li.o
+ .debug_pubnames
+                0x00000479       0x32 Ni.o
+ .debug_pubnames
+                0x000004ab       0x32 Pb.o
+ .debug_pubnames
+                0x000004dd       0x27 items.o
+ .debug_pubnames
+                0x00000504       0x42 charger.o
+ .debug_pubnames
+                0x00000546       0x53 para.o
+ .debug_pubnames
+                0x00000599       0x6d sets.o
+ .debug_pubnames
+                0x00000606       0x30 limit.o
+ .debug_pubnames
+                0x00000636       0x45 balance.o
+ .debug_pubnames
+                0x0000067b       0x2a scroll.o
+ .debug_pubnames
+                0x000006a5       0x26 pmu.o
+
+.debug_info     0x00000000     0xbe3f
+ *(.debug_info)
+ .debug_info    0x00000000      0x978 battery.o
+ .debug_info    0x00000978      0x10a comm.o
+ .debug_info    0x00000a82      0x99e adc.o
+ .debug_info    0x00001420       0xdf dbus.o
+ .debug_info    0x000014ff       0xd5 eeprom.o
+ .debug_info    0x000015d4      0x9e7 key.o
+ .debug_info    0x00001fbb      0x93a port.o
+ .debug_info    0x000028f5      0x139 pwm.o
+ .debug_info    0x00002a2e      0x9c9 timer0.o
+ .debug_info    0x000033f7      0xa14 uart0.o
+ .debug_info    0x00003e0b      0x11a lcd.o
+ .debug_info    0x00003f25      0x923 main.o
+ .debug_info    0x00004848      0x9e0 menu.o
+ .debug_info    0x00005228      0x1d3 misc.o
+ .debug_info    0x000053fb       0x77 cpuinit.o
+ .debug_info    0x00005472      0x113 string.o
+ .debug_info    0x00005585      0x96f Li.o
+ .debug_info    0x00005ef4      0x96f Ni.o
+ .debug_info    0x00006863      0x96f Pb.o
+ .debug_info    0x000071d2      0x979 items.o
+ .debug_info    0x00007b4b      0x970 charger.o
+ .debug_info    0x000084bb      0x963 para.o
+ .debug_info    0x00008e1e      0xa45 sets.o
+ .debug_info    0x00009863      0x952 limit.o
+ .debug_info    0x0000a1b5      0x9c9 balance.o
+ .debug_info    0x0000ab7e      0x952 scroll.o
+ .debug_info    0x0000b4d0      0x96f pmu.o
+ *(.gnu.linkonce.wi.*)
+
+.debug_abbrev   0x00000000     0x1856
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000       0xf6 battery.o
+ .debug_abbrev  0x000000f6       0x92 comm.o
+ .debug_abbrev  0x00000188      0x136 adc.o
+ .debug_abbrev  0x000002be       0x89 dbus.o
+ .debug_abbrev  0x00000347       0x76 eeprom.o
+ .debug_abbrev  0x000003bd      0x13a key.o
+ .debug_abbrev  0x000004f7       0xeb port.o
+ .debug_abbrev  0x000005e2       0xcc pwm.o
+ .debug_abbrev  0x000006ae      0x10f timer0.o
+ .debug_abbrev  0x000007bd      0x140 uart0.o
+ .debug_abbrev  0x000008fd       0x7d lcd.o
+ .debug_abbrev  0x0000097a       0xdc main.o
+ .debug_abbrev  0x00000a56      0x103 menu.o
+ .debug_abbrev  0x00000b59       0xb4 misc.o
+ .debug_abbrev  0x00000c0d       0x3f cpuinit.o
+ .debug_abbrev  0x00000c4c       0x83 string.o
+ .debug_abbrev  0x00000ccf      0x112 Li.o
+ .debug_abbrev  0x00000de1      0x112 Ni.o
+ .debug_abbrev  0x00000ef3      0x112 Pb.o
+ .debug_abbrev  0x00001005      0x114 items.o
+ .debug_abbrev  0x00001119       0xf4 charger.o
+ .debug_abbrev  0x0000120d      0x11a para.o
+ .debug_abbrev  0x00001327      0x103 sets.o
+ .debug_abbrev  0x0000142a      0x103 limit.o
+ .debug_abbrev  0x0000152d      0x114 balance.o
+ .debug_abbrev  0x00001641      0x103 scroll.o
+ .debug_abbrev  0x00001744      0x112 pmu.o
+
+.debug_line     0x00000000     0x3c3e
+ *(.debug_line)
+ .debug_line    0x00000000      0x23c battery.o
+ .debug_line    0x0000023c       0xba comm.o
+ .debug_line    0x000002f6      0x1f8 adc.o
+ .debug_line    0x000004ee       0xf6 dbus.o
+ .debug_line    0x000005e4       0xf2 eeprom.o
+ .debug_line    0x000006d6      0x228 key.o
+ .debug_line    0x000008fe      0x16f port.o
+ .debug_line    0x00000a6d      0x107 pwm.o
+ .debug_line    0x00000b74      0x225 timer0.o
+ .debug_line    0x00000d99      0x25a uart0.o
+ .debug_line    0x00000ff3      0x12b lcd.o
+ .debug_line    0x0000111e      0x242 main.o
+ .debug_line    0x00001360      0x3ef menu.o
+ .debug_line    0x0000174f      0x14b misc.o
+ .debug_line    0x0000189a       0xce cpuinit.o
+ .debug_line    0x00001968       0xaf string.o
+ .debug_line    0x00001a17      0x669 Li.o
+ .debug_line    0x00002080      0x44d Ni.o
+ .debug_line    0x000024cd      0x2f7 Pb.o
+ .debug_line    0x000027c4      0x2fa items.o
+ .debug_line    0x00002abe      0x176 charger.o
+ .debug_line    0x00002c34      0x299 para.o
+ .debug_line    0x00002ecd      0x4a0 sets.o
+ .debug_line    0x0000336d      0x228 limit.o
+ .debug_line    0x00003595      0x224 balance.o
+ .debug_line    0x000037b9      0x1f3 scroll.o
+ .debug_line    0x000039ac      0x292 pmu.o
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x00000000      0x8a4
+ *(.debug_str)
+ .debug_str     0x00000000      0x2cc battery.o
+                                0x374 (size before relaxing)
+ .debug_str     0x000002cc       0x3f comm.o
+                                 0xcb (size before relaxing)
+ .debug_str     0x0000030b       0x38 adc.o
+                                0x369 (size before relaxing)
+ .debug_str     0x00000343       0x57 dbus.o
+                                 0xde (size before relaxing)
+ .debug_str     0x0000039a       0x40 eeprom.o
+                                 0xcc (size before relaxing)
+ .debug_str     0x000003da       0x44 key.o
+                                0x375 (size before relaxing)
+ .debug_str     0x0000041e       0x13 port.o
+                                0x344 (size before relaxing)
+ .debug_str     0x00000431       0x41 pwm.o
+                                 0xe7 (size before relaxing)
+ .debug_str     0x00000472       0x39 timer0.o
+                                0x36a (size before relaxing)
+ .debug_str     0x000004ab       0x67 uart0.o
+                                0x39d (size before relaxing)
+ .debug_str     0x00000512       0x4c lcd.o
+                                 0xd8 (size before relaxing)
+ .debug_str     0x0000055e       0x19 main.o
+                                0x34a (size before relaxing)
+ .debug_str     0x00000577       0x3f menu.o
+                                0x377 (size before relaxing)
+ .debug_str     0x000005b6       0x4f misc.o
+                                 0xe0 (size before relaxing)
+ .debug_str     0x00000605       0x22 cpuinit.o
+                                 0xa9 (size before relaxing)
+ .debug_str     0x00000627       0x3e string.o
+                                 0x71 (size before relaxing)
+ .debug_str     0x00000665       0x2e Li.o
+                                0x366 (size before relaxing)
+ .debug_str     0x00000693       0x29 Ni.o
+                                0x366 (size before relaxing)
+ .debug_str     0x000006bc       0x29 Pb.o
+                                0x366 (size before relaxing)
+ .debug_str     0x000006e5       0x21 items.o
+                                0x359 (size before relaxing)
+ .debug_str     0x00000706       0x3a charger.o
+                                0x372 (size before relaxing)
+ .debug_str     0x00000740       0x48 para.o
+                                0x37e (size before relaxing)
+ .debug_str     0x00000788       0x61 sets.o
+                                0x39e (size before relaxing)
+ .debug_str     0x000007e9       0x33 limit.o
+                                0x364 (size before relaxing)
+ .debug_str     0x0000081c       0x3d balance.o
+                                0x375 (size before relaxing)
+ .debug_str     0x00000859       0x2d scroll.o
+                                0x365 (size before relaxing)
+ .debug_str     0x00000886       0x1e pmu.o
+                                0x35b (size before relaxing)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+OUTPUT(charger.elf elf32-avr)
