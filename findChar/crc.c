@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-unsigned char sendcrc[] = {0x01, 0x03, 0x00, 0x10, 0x00 , 0x02};
+unsigned char sendcrc[] = {0x00, 0x00, 0x4E, 0x20, 0x00, 0x00, 0xD6, 0xD8, 0x00, 0x00, 0x75, 0x30};
 char *str = "2.8908080843E-02 ";
 
 
@@ -28,9 +28,10 @@ unsigned int Get_CRC(unsigned char *se, unsigned char num)
 }
 int main()
 {
-    /* unsigned int tem = Get_CRC(sendcrc, 6);
-    printf("%d", tem);
-    return 0; */
+    unsigned int tem = Get_CRC(sendcrc, 12);
+    printf("%x", tem);
+    return 0; 
+    /*
     double d = 0;
     char *s1;
     char *s2;
@@ -39,6 +40,6 @@ int main()
     printf("s2 - s1 = %d\n", (s2 - s1));
     //char* str = "2.96E-03";
     d = atof(str);
-    printf("atof(str)=%1f", d);
+    printf("atof(str)=%1f", d);//*/
 
 }

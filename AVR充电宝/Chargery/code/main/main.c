@@ -63,7 +63,7 @@ int main ( void )
 		if ( msg.bFlag.Task2 )
 		{
 			msg.bFlag.Task2 = OFF;
-			PWM_Control ((PSTPWM) &msg.Pwm, 10, PWM_STEP_FAST );						
+			PWM_Control ((PSTPWM) &msg.Pwm, 10, PWM_STEP_FAST );				
 		}
 		if ( msg.bFlag.Task3 )
 		{
